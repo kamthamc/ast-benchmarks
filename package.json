@@ -1,0 +1,32 @@
+{
+  "name": "ast-benchmarks",
+  "version": "1.0.0",
+  "description": "AST parser benchmarks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamthamc/ast-benchmarks.git"
+  },
+  "keywords": [
+    "ast",
+    "parser",
+    "parser",
+    "benchmark"
+  ],
+  "author": "Chaitanya Kamatham <https://github.com/kamthamc>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamthamc/ast-benchmarks/issues"
+  },
+  "homepage": "https://github.com/kamthamc/ast-benchmarks#readme",
+  "devDependencies": {
+    "@babel/parser": "latest",
+    "acorn": "latest",
+    "cherow": "latest",
+    "esprima": "latest",
+    "typescript": "latest"
+  }
+}

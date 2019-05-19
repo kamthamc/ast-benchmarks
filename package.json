@@ -4,7 +4,7 @@
   "description": "AST parser benchmarks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-modules tests.mjs"
   },
   "repository": {
     "type": "git",
@@ -22,11 +22,13 @@
     "url": "https://github.com/kamthamc/ast-benchmarks/issues"
   },
   "homepage": "https://github.com/kamthamc/ast-benchmarks#readme",
-  "devDependencies": {
+  "dependencies": {
     "@babel/parser": "latest",
     "acorn": "latest",
+    "benchmark": "latest",
     "cherow": "latest",
     "esprima": "latest",
+    "react": "latest",
     "typescript": "latest"
   }
 }
